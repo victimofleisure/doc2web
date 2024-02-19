@@ -19,9 +19,9 @@ doc2web /nospaces help.txt Help Contents.htm PolymeterHelp.htm "Polymeter Help"
 
 All commands start with an ampersand. **Unless otherwise specified, the ampersand must be the first character on the line**.
 
-|Command|Description|
+|Command Syntax|Description|
 |-------|-----------|
-|@chapter|Starts a chapter. Each chapter must be terminated by a corresponding endchapter. Chapters can be nested.|
+|@chapter name|Starts a chapter. Each chapter must be terminated by a corresponding endchapter. Chapters can be nested.|
 |@endchapter|Ends a chapter.|
 |@topic name|Creates a topic within a chapter. Topics can NOT be nested.|
 |@item name|Creates an item within a topic. Items can NOT be nested.|
@@ -29,7 +29,7 @@ All commands start with an ampersand. **Unless otherwise specified, the ampersan
 |@{style}text@}|Formats *text* with *style*. The style must be defined in CSS. This command can appear anywhere in the line.|
 |@{#name}|Creates an anchor for name. This command can appear anywhere in the line. It's useful for creating anchors in tables.|
 
-Names are NOT case-sensitive and may contain spaces. For all commands that take a name parameter, the displayed text can differ from the topic or item name. Specify the name first, then a backslash, then the text to display. For example:
+Names are NOT case-sensitive and may contain spaces. For all commands that take a name parameter, the displayed text can optionally differ from the topic or item name. Specify the name first, then a backslash, then the text to display. For example:
 ```
 @topic actual topic name\text to display
 ```
