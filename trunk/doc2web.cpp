@@ -502,7 +502,7 @@ bool CDoc2Web::Process(LPCSTR SrcPath, LPCSTR DstFolder, LPCSTR TocPath,
 		printf("can't set destination folder\n");
 		return(FALSE);
 	}
-	if (!fc.Open(TocPath, CFile::modeWrite | CFile::modeCreate)) {
+	if (TocPath != NULL && !fc.Open(TocPath, CFile::modeWrite | CFile::modeCreate)) {
 		printf("can't create %s\n", TocPath);
 		return(FALSE);
 	}
