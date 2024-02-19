@@ -7,7 +7,7 @@ The project is a Microsoft Windows MFC command line app, compiled in Visual Stud
 ```
 doc2web [/numprefix] [/nospaces] [/logrefs] src_path dst_folder [contents_fname] [doc_path] [doc_title] [help_file_path]
 ```
-Here are the actual command lines I use for the Polymeter project. The first command is for the CHM compiled help. The output hhp file is an input to HTML Help Workshop.
+Here are the actual command lines I use for the Polymeter project. The first command is for the CHM compiled help. The hhp file is both and input and an output; doc2web updates it, and the updated version is passed to HTML Help Workshop to build the CHM.
 ```
 doc2web /nospaces /logrefs help.txt . nul printable.html "Polymeter Help" "Polymeter.hhp"
 ```
