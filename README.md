@@ -23,7 +23,7 @@ Here are the actual command lines for the Polymeter project. The first command i
 ```
 doc2web /nospaces /logrefs help.txt . nul printable.html "Polymeter Help" "Polymeter.hhp"
 ```
-The second command is for the online HTML help. Note that this command creates two distinct versions: a help tree with each topic in its own page and each chapter in its own folder, and a single-file version.
+The second command is for the online HTML help. Note that this command creates two distinct versions: a help tree with each topic in its own page and each chapter in its own folder, and a single-file version suitable for printing.
 ```
 doc2web /nospaces help.txt Help Contents.htm PolymeterHelp.htm "Polymeter Help"
 ```
