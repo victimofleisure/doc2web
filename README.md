@@ -59,3 +59,6 @@ To build the corresponding help, assuming the above is in help.txt:
 ```
 doc2web help.txt . contents.html printable.html
 ```
+
+Newlines in the input file are respected and indicate paragraphs. Put another way, each paragraph is a single line of text. Lines can be arbitarily long, so it's recommended to use a text editor that automatically wraps long lines. I use WordPad.
+
