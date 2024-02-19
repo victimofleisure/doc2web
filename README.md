@@ -46,7 +46,7 @@ Names are NOT case-sensitive and may contain spaces. For all commands that take 
 @topic actual topic name\text to display
 ```
 
-Here's a very simple example of help project:
+Here's a very simple input help file:
 ```
 @chapter Getting Started
 
