@@ -19,7 +19,7 @@ doc2web [/numprefix] [/nospaces] [/logrefs] src_path dst_folder [contents_fname]
 |doc_title|The title of the help file.|Optional|
 |help_file_path|The path of the HTML Help Project file in HHP format. This argument is only necessary when using HTML Help Workshop to create a compiled help file (CHM). If specified, the HHP file must already exist, and will be updated.|Optional|
 
-Here are the actual command lines I use for the Polymeter project. The first command is for the CHM compiled help. The hhp file is both an input and an output; doc2web updates it, and the updated version is passed to HTML Help Workshop to build the CHM.
+Here are the actual command lines for the Polymeter project. The first command is for the CHM compiled help. The hhp file is both an input and an output; doc2web updates it, and the updated version is passed to HTML Help Workshop to build the CHM.
 ```
 doc2web /nospaces /logrefs help.txt . nul printable.html "Polymeter Help" "Polymeter.hhp"
 ```
