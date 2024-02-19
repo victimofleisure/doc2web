@@ -1,7 +1,7 @@
 # doc2web
 Create HTML help from a text file containing formatting commands
 
-I use this app to generate the help for all of my projects that have help. The input is a plain text file containing formatting commands. The input file can also contain simple HTML, for example lists and tables. The best way to learn the syntax is to study one of my help files. I recommend the Polymeter project's [help file](https://github.com/victimofleisure/Polymeter/blob/main/docs/Help/help.txt) because it's the most recent and utilizes all the latest features. That single input file generates the [online help tree](https://victimofleisure.github.io/Polymeter/helpframe.html), the single-page [printable help](https://victimofleisure.github.io/Polymeter/Help/printable/PolymeterHelp.htm) and the compiled help file, thereby avoiding considerable parallel maintenance.
+I use this app to generate the help for all of my projects that have help. The input is a plain text file containing formatting commands. The input file can also contain simple HTML, for example lists and tables. The best way to learn the syntax is to study one of my help files. I recommend the Polymeter project's [help file](https://github.com/victimofleisure/Polymeter/blob/main/docs/Help/help.txt) because it's the most recent and utilizes all the latest features. That single input file generates the compiled help file, the [online help tree](https://victimofleisure.github.io/Polymeter/helpframe.html), and the single-page [printable help](https://victimofleisure.github.io/Polymeter/Help/printable/PolymeterHelp.htm), thereby avoiding considerable parallel maintenance.
 
 The project is a Microsoft Windows MFC command line app, compiled in Visual Studio 2012. The command line syntax is:
 ```
